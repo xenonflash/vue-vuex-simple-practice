@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <ul>
-      <router-link to="/">home</router-link>
       <router-link to="/todo">to app</router-link>
-      <router-link to="/El">Element UI</router-link>
+      <router-link to="/">Element UI</router-link>
     </ul>
     <router-view/>
   </div>

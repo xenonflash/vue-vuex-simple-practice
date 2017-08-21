@@ -11,9 +11,6 @@ Vue.use(VueRouter);
 const router = new VueRouter({
   routes: [{
     path: '/',
-    component: App
-  }, {
-    path: '/el',
     component: El
   }, {
     path: '/todo',
